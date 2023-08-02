@@ -7,3 +7,4 @@ podman run -d -p 9000:80 mynginxbd:2.0
 podman ps
 curl -i localhost:8000
 curl -i localhost:9000
+
