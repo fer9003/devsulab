@@ -1,0 +1,5 @@
+echo $image
+buildah containers
+buildah images
+buildah rm <container_id>
+buildah rmi <image_id>

@@ -1,0 +1,3 @@
+bash nginx.sh
+buildah images
+podman run -d --name mynginx -p 8000:80 my-nginx-buildah:1.0
