@@ -3,3 +3,15 @@ buildah containers
 buildah images
 buildah rm <container_id>
 buildah rmi <image_id>
+
+# Borrar contenedores e imagenes
+podman ps
+podman ps -a
+podman images
+podman container prune
+podman image prune -a
+
+buildah containers
+buildah rm <container_id>
+buildah images
+buildah rmi <image_id>

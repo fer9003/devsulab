@@ -3,6 +3,12 @@ cat /etc/os-release
 podman --version && podman-compose --version
 buildah --version
 
+#Ejecucion de contenedor
+ podman run -d alpine sleep 1d
+ podman ps
+ ps aux | grep sleep
+
+
 # Ejercicio
 sudo su
 echo mypassword123 > /tmp/secret.txt

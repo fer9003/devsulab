@@ -6,6 +6,11 @@ systemctl status docker
 docker --version
 cat /etc/group
 
+#Ejecucion de contenedor
+ docker run -d alpine sleep 1d
+ docker ps
+ ps aux | grep sleep
+ 
 # Ejercicio
 sudo su
 echo mypassword123 > /tmp/secret.txt
