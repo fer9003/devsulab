@@ -38,6 +38,3 @@ cat /etc/subuid
 docker run -v /tmp:/tmp -it alpine sh
 cat /tmp/secret.txt
 exit
-
-docker run -d alpine sleep 1d
-ps aux | grep sleep
